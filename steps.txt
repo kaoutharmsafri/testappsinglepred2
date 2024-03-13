@@ -1,0 +1,21 @@
+# model pkl is from testing -> try 2
+
+pip install virtualenv
+
+virtualenv env
+
+ Set-ExecutionPolicy RemoteSigned -Scope Process
+
+.\env\Scripts\Activate
+
+pip install streamlit
+
+pip install joblib   
+
+pip install scikit-learn
+
+pip install openpyxl
+
+streamlit run app.py
+
+pip freeze > requirements.txt
